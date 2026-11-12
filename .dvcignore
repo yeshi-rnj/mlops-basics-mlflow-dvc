@@ -1,0 +1,3 @@
+# Add patterns of files dvc should ignore, which could improve detection performance.
+__pycache__/
+.venv/
