@@ -1,0 +1,46 @@
+{
+  "run_name": "logreg_C0.1",
+  "params": {
+    "C": 0.1
+  },
+  "seed": 42,
+  "all_match": true,
+  "metrics": [
+    {
+      "metric": "accuracy",
+      "logged": 0.9736842105263158,
+      "reproduced": 0.9736842105263158,
+      "match": true
+    },
+    {
+      "metric": "precision",
+      "logged": 0.9726027397260274,
+      "reproduced": 0.9726027397260274,
+      "match": true
+    },
+    {
+      "metric": "recall",
+      "logged": 0.9861111111111112,
+      "reproduced": 0.9861111111111112,
+      "match": true
+    },
+    {
+      "metric": "f1",
+      "logged": 0.9793103448275862,
+      "reproduced": 0.9793103448275862,
+      "match": true
+    },
+    {
+      "metric": "roc_auc",
+      "logged": 0.9957010582010581,
+      "reproduced": 0.9957010582010581,
+      "match": true
+    },
+    {
+      "metric": "train_accuracy",
+      "logged": 0.9868131868131869,
+      "reproduced": 0.9868131868131869,
+      "match": true
+    }
+  ]
+}

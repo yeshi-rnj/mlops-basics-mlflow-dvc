@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Model binaries logged by MLflow live in artifacts/ -> keep them out of git
+# (the trained models are versioned by DVC instead). Params/metrics stay in git.
+mlruns/**/artifacts/
+mlruns/**/models/
+/models
